@@ -1,3 +1,7 @@
+body{
+    background-color: #8d7bb5 !important;
+    font-family: cursive !important;
+}
 .striked {
     text-decoration: line-through;
   }
@@ -5,8 +9,19 @@ ul > li:hover {
     cursor: pointer;
   }
 
+.form-control{
+    display: inline-block !important;
+}
+
 .deadline{
     background-color: #b3d7ff;
     float: right;
     padding: 5px;
+}
+
+h1{
+    text-align: center;
+    color: #9fec24;
+    font-size: 60px;
+    margin-bottom: 30px;
 }

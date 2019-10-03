@@ -10,7 +10,7 @@ let todos = [
     name: "Get Coffee",
     done: false,
     deadline: new Date().toLocaleString()
-  }
+  } 
 ];
 
 function render(state) {
